@@ -5,7 +5,7 @@ public class Wheel {
         this.size = size;
     }
 
-    private int size = 5;
+    private int size;
 
     public int getSize() {
         return size;
@@ -15,7 +15,7 @@ public class Wheel {
         this.size = size;
     }
 
-    public void method_wheel() {
-        System.out.println(size*5);
+    public int method_wheel() {
+        return size *5;
     }
 }

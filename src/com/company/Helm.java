@@ -15,7 +15,8 @@ public class Helm {
         this.steering = steering;
     }
 
-    public void method_helm(){
-        System.out.println(steering*3);
+    public int method_helm(){
+
+        return steering * 3;
     }
 }

@@ -9,14 +9,14 @@ public class Body {
         this.dimensions = dimensions;
     }
 
-    private int dimensions = 10;
+    private int dimensions;
 
     public int getDimensions() {
         return dimensions;
     }
 
 
-    public void method_body(){
-        System.out.println(dimensions * 10);
+    public int method_body(){
+        return dimensions*10;
     }
 }
