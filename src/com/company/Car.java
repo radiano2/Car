@@ -8,14 +8,10 @@ public class Car {
 
     private String brand = "BMW";
 
-    int a = helm.method_helm();
-    int b = wheel.method_wheel();
-    int c = body.method_body();
-
     public void method_car(){
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.println(helm.method_helm());
+        System.out.println(wheel.method_wheel());
+        System.out.println(body.method_body());
     }
 
 
